@@ -1,0 +1,259 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* home */
+.home{
+    height: 100vh;
+    background-image: url("../images/Web\ 1280\ –\ 2.png");
+    color: #ffffff;
+}
+.home h1{
+    font-size: 40px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.home p{
+    font-size: 17px;
+    margin-left: 100px;
+}
+.home .fb{
+    margin-left: 100px;
+}
+.home a{
+    text-decoration: none;
+}
+.home a:hover{
+    text-decoration: none;
+}
+.home i{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: .5s ease;
+}
+.home i:hover{
+    transform: translateY(-5px);
+    opacity: 0.5;
+}
+
+.home .btn-home{
+    margin-left: 100px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.home .btn-home:hover{
+    color: #FF98A6;
+    background: #f4f4f4;
+    
+}
+
+/* navbar */
+.navs{
+    width: 100%;
+    background: #FF98A6;
+    margin: auto;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 80px;
+    padding-left: 100px;
+}
+.navbar a{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.navbar a:hover{
+    color: #ffffff;
+}
+.navbar-brand span{
+    color: #000000;
+    font-size: 50px;
+}
+.navbar-nav{
+    margin-left: auto;
+    padding-right: 100px;
+}
+.navbar-nav .nav-link{
+    color: #ffffff;
+}
+.navbar-nav .nav-link:hover{
+    border-bottom: 2px solid #000000;
+}
+.bars{
+    align-items: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/* About */
+.about{
+    padding: 10% 5%;
+}
+.about h1{
+    color: #FF98A6;
+}
+.about img{
+    height: 550px;
+}
+.about .btn-cv{
+    color: #FF98A6;
+    border: 1px solid #FF98A6;
+}
+.about .btn-cv:hover{
+    color: #ffffff;
+    background: #FF98A6;
+}
+.right-side{
+    margin-top: 90px;
+}
+.about .right-side span{
+    font-family: monospace;
+}
+
+
+/* project */
+.project h1{
+    padding: 10% 0;
+    text-align: center;
+    color: #FF98A6;
+    margin-bottom: 50px;
+}
+.project img{
+    margin-top: 50px;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+.project img:hover{
+    opacity: 1;
+}
+.project .design-card{
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* contact */
+.contact{
+    margin-top: 150px;
+    padding: 8% 30% 10%;
+    background: #FF98A6;
+}
+.contact h1{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+form .form-row{
+    margin-bottom: 30px;
+}
+.contact .btn-contact{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.contact .btn-contact:hover{
+    color: #FF98A6;
+    background: #ffffff;
+}
+input[type="text"], textarea, input[type="email"] {
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ffffff !important;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    color: #FF98A6;
+    font-size: 15px;
+    padding: 5% 0;
+
+}
+footer a{
+    margin: 20px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FF98A6;
+    transition: 0.5s ease;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #FF98A6;
+    opacity: 0.6;
+}
+
+@media (max-width:600px){
+    .about img{
+        height: 400px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media (max-width:700px){
+    .home h1{
+        margin-left: 20px;
+    }
+    .home p{
+        margin-left: 20px;
+    }
+    .home .fb{
+        margin-left: 20px;
+    }
+    .home .btn-home{
+        margin-left: 20px;
+    }
+    .navbar-brand{
+        padding-left: 20px;
+    }
+    .navbar-collapse{
+        padding-left: 20px;
+    }
+    .navbar-nav .nav-link{
+        color: #ffffff;
+    }
+    .navbar-nav .nav-link:hover{
+        border-bottom: 0;
+        background: #ffffff;
+        color: #FF98A6;
+    }
+    /* about */
+    .right-side{
+        margin-top: 50px;
+    }
+    .about img{
+        display: block;
+        margin: 0 auto;
+    }
+
+/* project */
+    .project .design-card{
+        margin-top: 20px;
+    }
+    .project img{
+        opacity: 1;
+    }
+    .project .design-title{
+        font-size: 30px;
+    }
+
+    /* contact */
+    .contact{
+        margin-top: 150px;
+        padding: 8% 5% 10%;
+        background: #FF98A6;
+    }
+}
